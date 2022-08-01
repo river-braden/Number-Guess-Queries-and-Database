@@ -1,9 +1,4 @@
 #! /bin/bash
-#Credit to axlpad on Git Hub for framework for the code here.
-#last project
-#I have struggled
-#I am happy though
-#Learned a ton
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --tuples-only -c"
 CHK_VALUES() {
   NUMBER_TO_GUESS=$1
